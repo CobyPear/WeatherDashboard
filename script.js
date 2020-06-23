@@ -83,7 +83,7 @@ $(document).ready(function() {
       url: "https://api.openweathermap.org/data/2.5/forecast?q=" + searchValue + "&appid=b6677566d5d1b3e237d8113a04b6e6ca&units=imperial",
       dataType: "json",
       success: function(data) {
-        console.log(data.list)
+//         console.log(data.list)
 
         // overwrite any existing content with title and empty row
         $("#forecast").html("<h4 class=\"mt-3\">5-Day Forecast:</h4>").append("<div class=\"row\">");
